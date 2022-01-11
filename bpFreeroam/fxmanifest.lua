@@ -21,6 +21,7 @@ client_scripts {
 }
 
 server_scripts {
-    "sv_freeroam.lua",
     "cfg_freeroam.lua"
 }
+
+shared_script '@es_extended/imports.lua'
